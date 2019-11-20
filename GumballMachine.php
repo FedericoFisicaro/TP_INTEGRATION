@@ -91,6 +91,13 @@ class GumballMachine
 	    $user = $stmt->fetch();
 	    return $user['maximum'];
 	}
+	public function GetLastIDC()
+    	{
+    	    $stmt = $this->bdd->prepare("select max(id) as maximum from cours");
+    	    $stmt->execute();
+    	    $user = $stmt->fetch();
+    	    return $user['maximum'];
+    	}
 	
 	public function InsertC($intitule, $duree , $id_prof)
 	{
