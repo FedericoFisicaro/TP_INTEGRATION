@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fdd99a56-7a23-4db4-bfe1-1b5e79084825" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/GumballMachineTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GumballMachineTest.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GumballMachine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="158" column="47" selection-start-line="158" selection-start-column="47" selection-end-line="158" selection-end-column="47" />
+            <state relative-caret-position="188">
+              <caret line="147" column="9" lean-forward="true" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="95" column="73" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="73" />
+            <state relative-caret-position="426">
+              <caret line="89" column="72" lean-forward="true" selection-start-line="89" selection-start-column="72" selection-end-line="89" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -84,7 +83,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574244336244" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574244821257" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -112,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574235335568</updated>
       <workItem from="1574235342223" duration="4246000" />
-      <workItem from="1574240593101" duration="3882000" />
+      <workItem from="1574240593101" duration="4190000" />
     </task>
     <task id="LOCAL-00001" summary="Q2">
       <created>1574238992066</created>
@@ -205,11 +204,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574244278231</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Q5 del mod">
+      <created>1574244519935</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574244519935</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8128000" />
+    <option name="totallyTimeSpent" value="8436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -262,20 +268,21 @@
     <MESSAGE value="Q4 update modif2" />
     <MESSAGE value="Q4 update modif3" />
     <MESSAGE value="Q5 del" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q5 del" />
+    <MESSAGE value="Q5 del mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q5 del mod" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GumballMachine.php">
+    <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="158" column="47" selection-start-line="158" selection-start-column="47" selection-end-line="158" selection-end-column="47" />
+        <state relative-caret-position="426">
+          <caret line="89" column="72" lean-forward="true" selection-start-line="89" selection-start-column="72" selection-end-line="89" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/GumballMachineTest.php">
+    <entry file="file://$PROJECT_DIR$/GumballMachine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="95" column="73" selection-start-line="95" selection-start-column="73" selection-end-line="95" selection-end-column="73" />
+        <state relative-caret-position="188">
+          <caret line="147" column="9" lean-forward="true" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
         </state>
       </provider>
     </entry>
