@@ -182,5 +182,10 @@ class GumballMachine
             return false;
         }
     }
+    public function ex2()
+    {
+        echo "HELLOOOOOO";
+    }
+
 
 }
