@@ -150,9 +150,37 @@ class GumballMachine
             return false;
         }
     }
-	
-	public function DeleteP()
-	{
-	    
-	}
+
+    public function DeleteP($id)
+    {
+        try
+        {
+            $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $sql = "delete from prof where id='$id'";
+            $this->bdd->exec($sql);
+            return true;
+        }
+        catch(PDOException $e)
+        {
+            echo $sql . "<br>" . $e->getMessage();
+            return false;
+        }
+    }
+
+    public function DeleteC($id)
+    {
+        try
+        {
+            $this->bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            $sql = "delete from cours where id='$id'";
+            $this->bdd->exec($sql);
+            return true;
+        }
+        catch(PDOException $e)
+        {
+            echo $sql . "<br>" . $e->getMessage();
+            return false;
+        }
+    }
+
 }
