@@ -111,6 +111,7 @@ class GumballMachine
 	    catch(PDOException $e)
 	    {
 	        echo $sql . "<br>" . $e->getMessage();
+            return "good job";
 	    }
 	    
 	}
