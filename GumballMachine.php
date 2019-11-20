@@ -151,7 +151,7 @@ class GumballMachine
         }
     }
 
-    public function DeleteP($id)
+    public function DeleteP($id) //MARCHE PAS CAR PROF LI2 AUX COURS PAR SON ID => FAUDRAIT FAIRE UN DEL DANS COURS DE TOUT LES COURS AVEC ID PROF = ID DU PROF à ELIMINER
     {
         try
         {
